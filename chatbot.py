@@ -21,16 +21,4 @@ for question, answer in questions.items():
         for char in answer:
             typed_text += char
             output_box.text(typed_text)
-            time.sleep(0.04)  # WPM
-
-
-
-
-
-
-
-
-
-
-
-
+            time.sleep(0.04)  # WPM 
